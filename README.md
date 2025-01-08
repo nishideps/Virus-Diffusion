@@ -1,0 +1,5 @@
+# Virus Diffusion
+
+This code provides the backgorund work for a report looking at the implementation of shields to delay the diffusion of a virus across a room. Shields can be used to disrupt and slow the diffusion of virus-bearing particles as they spread across a room to mitigate the risk of infection. The diffusivity of a shield is a fundamental consideration when looking at its implementation to reduce exposure. The code models the transport of virus particles as a one-dimensional diffusion equation and seeks to find an optimal diffusion coefficient for a shield's material. An exact analytical solution of the model is formulated to replicate the diffusion of virus particles in a room prior to installing a shield. The numerical approach detailed utilises this to iterate through the concentration of particles diffusing through a shield over time. We require that the optimal diffusivity of a shield must meet the threshold conditions of reducing the proportion of particles by at least half within 2 hours and 40 minutes.
+
+This code is programmed in Jupyter Notebook using Python.
